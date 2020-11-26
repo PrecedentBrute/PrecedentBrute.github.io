@@ -1,59 +1,76 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-	<title>My small projects</title>
-	
-	<link rel="stylesheet" href=css/normalize.css>
-	<link rel="stylesheet" href=css/style.css>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Projects - Projects</title>
+    <meta name="description" content="Some of my personal projects">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 </head>
 
 <body>
-
-<br>
-<br>
-<br>
-
-
-<div class="heading">
-	<h1> My small projects </h1>
-</div>
-
-<br>
-<br>
-<br>
-
-<div class="row">
-	
-	<div class="block">
-
-		<h1><a href = "https://precedentbrute.github.io/replica/" target="_blank">NSS Homepage replica</a></h1>
-
-		Some elements may break on mobile.
-
-	</div>
-
-	<div class="block">
-
-		<h1><a href = "projects/GiphySearch/index.html" target="_blank">Giphy search</a></h1>
-
-		Uses the giphy API to search gifs and displays them.
-
-	</div>
-
-	<div class="block">
-
-		<h1><a href = "projects/Birthday_invitation/index.html" target="_blank">Birthday invitation</a></h1>
-
-		Responsive invitation which adapts to mobile displays.
-
-	</div>
-
-</div>
-
+    <nav class="navbar navbar-dark navbar-expand-lg bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto"></ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page projets-page">
+        <section class="portfolio-block project-no-images">
+            <div class="container">
+                <div class="heading">
+                    <h2>My projects</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>Discord Replication</h3>
+                            <h4>Task for CC</h4><a class="btn btn-outline-primary btn-sm" role="button" href="https://precedentbrute.github.io/discordtask/">See More</a>
+                            <div class="tags"><a href="#">Bootstrap</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>NSS Replication</h3>
+                            <h4>Breaks on mobile</h4><a class="btn btn-outline-primary btn-sm" role="button" href="https://precedentbrute.github.io/replica/">See More</a>
+                            <div class="tags"><a href="#">html/css</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>Giphy Search</h3>
+                            <h4>Uses giphy api to search</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
+                            <div class="tags"><a href="#">javascript</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>SoundCloud player</h3>
+                            <h4>Search/Create playlists/Play songs</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
+                            <div class="tags"><a href="#">javascript</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>Birthday invitation</h3>
+                            <h4>Responsive birthday invitation</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
+                            <div class="tags"><a href="#">html/css</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
-
-
